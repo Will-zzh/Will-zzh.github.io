@@ -5,9 +5,11 @@ navbar:
   title: "Will-zzh"
   left:
     - text: "Home"
-      href: "index.html"
+      href: index.html
     - text: "Resume"
-      href: "resume.html"
+      href: resume.html
+    - text: "Dashboard"
+      href: flexdashboard.html
   right:
     - icon: "fa-github"
       href: "https://github.com/Will-zzh"
@@ -16,6 +18,13 @@ navbar:
     - icon: "fa-envelope"
       href: "mailto:williamzzhedu@gmail.com"
 output_dir: "docs"
+output:
+  html_document:
+    theme: cerulean
+    toc: true
+    toc_depth: 2
+    toc_float: true
+
 
 
 

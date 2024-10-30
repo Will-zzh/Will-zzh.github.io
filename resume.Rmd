@@ -16,10 +16,10 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # **Zihan (William) Zhao**
 
-**Address:** 40 Bennett Rd Unit 219, Englewood, NJ 07631  
-**Phone:** (949) 345-6913  
-**Email:** [williamzzhedu@gmail.com](mailto:williamzzhedu@gmail.com)  
-**LinkedIn:** [www.linkedin.com/in/william-zzh](https://www.linkedin.com/in/william-zzh)
+- **Address:** xxxx-xxxx-xxxx
+- **Phone:** xxx-xxx-xxxx  
+- **Email:** [zz3166@cumc.columbia.edu](mailto:zz3166@cumc.columbia.edu)  
+- **LinkedIn:** [www.linkedin.com/in/william-zzh](https://www.linkedin.com/in/william-zzh)
 
 ---
 

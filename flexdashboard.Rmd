@@ -1,6 +1,7 @@
 ---
-title: "Instacart Data Analysis"
-output: flexdashboard::flex_dashboard
+title: "My Dashboard"
+output: 
+  flexdashboard::flex_dashboard
 ---
 
 Column {data-width=650}
