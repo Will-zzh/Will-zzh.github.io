@@ -10,11 +10,13 @@ navbar:
       href: index.html
     - text: "Resume"
       href: resume.html
-  right:
-    - icon: "fa-github"
-      href: "https://github.com/Will-zzh"
-    - icon: "fa-envelope"
-      href: "mailto:zz3166@cumc.columbia.edu"
+ right:
+  - icon: "fa-github"
+    href: "https://github.com/Will-zzh"
+  - icon: "fa-linkedin"
+    href: "https://www.linkedin.com/in/william-zzh"
+  - icon: "fa-envelope"
+    href: "mailto:williamzzhedu@gmail.com"
 output_dir: "docs"
 
 

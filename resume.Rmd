@@ -2,6 +2,7 @@
 title: "Resume"
 output:
   html_document:
+    theme: cerulean
     toc: true
     toc_depth: 2
     toc_float: true

@@ -1,0 +1,43 @@
+
+
+
+name: "Will's Personal Website"
+navbar:
+  title: "Will-zzh"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Resume"
+      href: resume.html
+  right:
+    - icon: "fa-github"
+      href: "https://github.com/Will-zzh"
+    - icon: "fa-linkedin"
+      href: "https://www.linkedin.com/in/william-zzh"
+    - icon: "fa-envelope"
+      href: "mailto:williamzzhedu@gmail.com"
+output_dir: "docs"
+output:
+  html_document:
+    css: styles.css
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
