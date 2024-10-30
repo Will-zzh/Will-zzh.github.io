@@ -1,8 +1,11 @@
 ---
-title: "Hello"
-author: "Zihan Zhao"
-output: html_document
-      theme: cerulean
+title: "Home"
+output:
+  html_document:
+    theme: cerulean
+    toc: true
+    toc_depth: 2
+    toc_float: true
 ---
 
 ```{r setup, include=FALSE}
