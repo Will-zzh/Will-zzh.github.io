@@ -1,0 +1,30 @@
+
+
+
+
+name: "Will's Personal Website"
+navbar:
+  title: "Will-zzh"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Resume"
+      href: resume.html
+  right:
+    - icon: "fa-github"
+      href: "https://github.com/Will-zzh"
+    - icon: "fa-envelope"
+      href: "mailto:zz3166@cumc.columbia.edu"
+output_dir: "docs"
+
+
+
+
+
+
+
+
+
+
+
+
