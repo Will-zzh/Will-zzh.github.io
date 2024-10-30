@@ -16,14 +16,9 @@ navbar:
     - icon: "fa-linkedin"
       href: "https://www.linkedin.com/in/william-zzh"
     - icon: "fa-envelope"
-      href: "mailto:williamzzhedu@gmail.com"
+      href: "mailto:zz3166@cumc.columbia.edu"
 output_dir: "docs"
-output:
-  html_document:
-    theme: cerulean
-    toc: true
-    toc_depth: 2
-    toc_float: true
+
 
 
 

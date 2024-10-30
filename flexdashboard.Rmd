@@ -1,8 +1,11 @@
 ---
-title: "My Dashboard"
-output: 
-  flexdashboard::flex_dashboard
+title: "Instacart Data Analysis"
+output:
+  flexdashboard::flex_dashboard:
+    self_contained: true
+output_dir: "docs"
 ---
+
 
 Column {data-width=650}
 

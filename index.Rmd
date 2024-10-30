@@ -6,15 +6,14 @@ output:
     toc: true
     toc_depth: 2
     toc_float: true
+    css: styles.css
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-
 Hello! I'm Zihan (William) Zhao, a Master of Public Health candidate specializing in Epidemiology at Columbia University. My background combines strong laboratory research experience, including prostate cancer studies at Duke University, with community-focused environmental health projects at Columbia. I am skilled in statistical analysis using SAS, R, SQL, and other tools, and have experience communicating complex findings to both scientific and community audiences. I'm passionate about cancer biology, environmental health, and utilizing data to address pressing public health challenges.
-
 
 
 
