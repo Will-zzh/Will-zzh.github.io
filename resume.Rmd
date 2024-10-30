@@ -1,12 +1,114 @@
 ---
-title: "resume"
-author: "Zihan Zhao"
-date: "2024-10-30"
-output: html_document
+title: "Resume"
+output:
+  html_document:
+    toc: true
+    toc_depth: 2
+    toc_float: true
 ---
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+
+# **Zihan (William) Zhao**
+
+**Address:** 40 Bennett Rd Unit 219, Englewood, NJ 07631  
+**Phone:** (949) 345-6913  
+**Email:** [williamzzhedu@gmail.com](mailto:williamzzhedu@gmail.com)  
+**LinkedIn:** [www.linkedin.com/in/william-zzh](https://www.linkedin.com/in/william-zzh)
+
+---
+
+## **Education**
+
+### **Columbia University Mailman School of Public Health**  
+*New York, NY | 08/2023 – 05/2025 (Expected)*
+
+**Master of Public Health in Epidemiology, Certificate in Biostatistics**
+
+- Relevant Coursework: Advanced Biostatistics (SAS, R, SQL, STATA), Applied Logistic Regression, Clinical Trial Design, Cancer Biology, Genomics
+
+### **University of California, Santa Barbara**  
+*Santa Barbara, CA | 09/2019 – 06/2023*
+
+**Bachelor of Science in Biological Science, Pre-Med Track**
+
+- Relevant Coursework: Human Physiology, Molecular Cell Biology, Cancer Biology, Biochemistry, Genetics, Principles of Pharmacology
+
+---
+
+## **Research Experience**
+
+### **Duke University Department of Pathology, Dr. Jiaoti Huang’s Lab**  
+*Durham, NC | 05/2022 – 09/2022*
+
+- Optimized prostate cancer sample preparation and data analysis by conducting over 20 key laboratory experiments, improving protocol efficiency by 15%.
+- Managed and maintained 20+ prostate cancer cell lines, achieving a 99% accuracy rate in data recording, ensuring high research integrity and reproducibility.
+- Performed critical RNA, DNA, and protein analysis using ECL staining and gel electrophoresis, contributing to novel insights in prostate cancer biomarker discovery.
+- Streamlined inventory management for over 100 lab items, resulting in a 20% improvement in operational efficiency and maintaining high sterilization standards.
+- Accumulated 250+ hours of hands-on research experience, demonstrating expertise in experimental design, molecular techniques, and adherence to research protocols.
+
+### **Columbia Center For Children’s Environmental Health, Columbia University**  
+*New York, NY | 05/2024 – Present*
+
+- Assessed the impact of cultural variation in rice consumption on arsenic exposure, contributing to key findings in environmental health.
+- Prepared multilingual reports (English, Spanish, Mandarin) to communicate research outcomes to community stakeholders, enhancing public understanding of health risks.
+- Analyzed complex qualitative data using SAS and R, creating comprehensive tables and graphs that highlighted arsenic-related health consequences across diverse populations.
+- Developed visual communication tools (infographics, fact sheets) to support effective feedback sessions with study participants, improving community engagement and awareness.
+
+### **UCLA Anesthesiology, Dr. Victor Xia’s Lab**  
+*Los Angeles, CA | 09/2022 – 01/2023*
+
+- Led research on wearable device interoperability in healthcare, analyzing the functionality of 20+ medical devices to improve healthcare delivery systems.
+- Aggregated and analyzed data from 200+ peer-reviewed studies using databases like NCBI and PubMed, strengthening the scientific basis for the project.
+- Delivered 5 high-impact presentations on research findings, utilizing advanced Microsoft Office Suite skills, receiving positive feedback for clarity and depth of analysis.
+- Synthesized 100+ scientific papers into comprehensive literature reviews, expanding the theoretical framework of the project and guiding future research directions.
+
+---
+
+## **Presentations**
+
+- **Zhao, Z.**, Kinslow, C.J., Kleiman, N.J., Alirezaei, M., Wang, K. (2024). "Systematic Review and Meta-analysis of Pain Response After Stereotactic Body Radiotherapy (SBRT) Versus Conventionally Fractionated Radiotherapy for Spinal and Non-Spinal Bone Metastases in Adult Patients with Cancer." Presented at Systematic Review and Meta-analysis Workshop, Columbia University Mailman School of Public Health, August 2024.
+
+---
+
+## **Skills**
+
+- **Languages:** English (Fluent), Mandarin (Native)
+- **Data Analysis:** Proficient in SAS, R, SQL, STATA for statistical modeling (regression, survival analysis, ANOVA); Beginner in Python for machine learning and data visualization.
+- **Biostatistics:** Expertise in survival analysis, Cox proportional hazards models, Bayesian statistics, and longitudinal data analysis for cancer research.
+- **Lab Research:** Molecular biology techniques (PCR, Western blotting, cell culture, histology) for pathology and cancer research.
+- **Software:** Microsoft Office Suite (Excel, Word, PowerPoint, Outlook); GraphPad Prism for data visualization.
+
+---
+
+## **Volunteer Experience**
+
+### **Columbia University Mailman School of Public Health**  
+*New York, NY | 09/2024 – Present*
+
+- Mentored three first-year master’s students, providing guidance on academic and personal adjustment to graduate school life.
+- Offered periodic check-ins and ongoing support to help mentees navigate the Master of Public Health (MPH) program and the epidemiology department.
+- Participated in peer mentorship mixer events to foster community engagement among new students.
+
+### **University of California Santa Barbara, Psychology Department**  
+*Santa Barbara, CA | 09/2021 – 06/2023*
+
+- Contributed to over 10 psychological research experiments by participating in experiments studying Virtual Reality, Face Identification, and Eye Tracking.
+
+---
+
+## **Memberships**
+
+- **International Society for Computational Biology (ISCB)** — Member (2024 – Present)
+- **American Society of Clinical Oncology (ASCO)** — Member (2019 – Present)
+
+---
+
+## **Publications**
+
+- Wang, A., Holloway, R.W., Cui, L., Sun, Y., **Zhao, Z.** (2019). "Association between BRCA1 and BRCA2 mutations and prognosis in women with endometrial carcinoma." *Journal of Clinical Oncology*, 37, e17115-e17115. DOI: [10.1200/JCO.2019.37.15_suppl.e17115](https://doi.org/10.1200/JCO.2019.37.15_suppl.e17115).
 
