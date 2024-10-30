@@ -1,0 +1,76 @@
+---
+title: "Instacart Data Analysis"
+output: flexdashboard::flex_dashboard
+---
+
+Column {data-width=650}
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = TRUE)
+```
+# Load required libraries
+```{r}
+library(flexdashboard)
+library(plotly)
+library(p8105.datasets)
+library(dplyr)
+```
+
+```{r}
+# Load Instacart dataset
+instacart_data <- p8105.datasets::instacart 
+
+# Filter or sample data for easier visualization
+set.seed(123)
+instacart_sample <- instacart_data %>% 
+  sample_n(10000)
+```
+
+### Scatterplot: Order Time vs. Add to Cart Order
+```{r}
+
+
+scatter_data <- instacart_sample %>% 
+  group_by(order_hour_of_day, add_to_cart_order) %>% 
+  summarise(count = n())
+
+scatter_plot <- plot_ly(scatter_data, x = ~order_hour_of_day, y = ~add_to_cart_order, 
+                        type = 'scatter', mode = 'markers', size = ~count, 
+                        marker = list(opacity = 0.6)) %>%
+  layout(title = "Scatterplot: Order Time vs. Add to Cart Order",
+         xaxis = list(title = "Hour of the Day"),
+         yaxis = list(title = "Add to Cart Order"))
+scatter_plot
+```
+
+### Bar Plot: Products Ordered by Department
+
+```{r}
+bar_data <- instacart_sample %>% 
+  group_by(department) %>% 
+  summarise(count = n()) %>% 
+  arrange(desc(count))
+
+bar_plot <- plot_ly(bar_data, x = ~department, y = ~count, 
+                    type = 'bar', marker = list(opacity = 0.7)) %>%
+  layout(title = "Products Ordered by Department",
+         xaxis = list(title = "Department"),
+         yaxis = list(title = "Number of Products"))
+bar_plot
+```
+
+### Box Plot: Days Since Prior Order by Day of the Week
+
+```{r}
+box_data <- instacart_sample %>% 
+  filter(!is.na(days_since_prior_order)) %>% 
+  group_by(order_dow)
+
+box_plot <- plot_ly(box_data, y = ~days_since_prior_order, x = ~factor(order_dow, labels = c("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday")),
+                    type = 'box') %>%
+  layout(title = "Days Since Prior Order by Day of the Week",
+         xaxis = list(title = "Day of the Week"),
+         yaxis = list(title = "Days Since Prior Order"))
+box_plot
+```
