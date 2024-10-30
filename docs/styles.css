@@ -9,6 +9,8 @@ navbar:
       href: index.html
     - text: "Resume"
       href: resume.html
+    - text: "Dashboard"
+      href: flexdashboard.html
   right:
     - icon: "fa-github"
       href: "https://github.com/Will-zzh"
@@ -17,9 +19,7 @@ navbar:
     - icon: "fa-envelope"
       href: "mailto:williamzzhedu@gmail.com"
 output_dir: "docs"
-output:
-  html_document:
-    css: styles.css
+
 
 
 

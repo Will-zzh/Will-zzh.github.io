@@ -1,15 +1,16 @@
 ---
----
 title: "Instacart Data Analysis"
 output:
   flexdashboard::flex_dashboard:
     self_contained: true
-    theme: "cerulean"
+    toc: true
+    toc_depth: 2
+    toc_float: true
+    css: "https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/cerulean/bootstrap.min.css"
 output_dir: "docs"
 ---
 
-Column {data-width=650}
--------------------------------------
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
