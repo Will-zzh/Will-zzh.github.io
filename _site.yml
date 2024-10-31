@@ -10,6 +10,7 @@ navbar:
       href: resume.html
     - text: "Dashboard"
       href: flexdashboard.html
+
   right:
     - icon: "fa-github"
       href: "https://github.com/Will-zzh"
