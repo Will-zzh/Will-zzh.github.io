@@ -10,7 +10,7 @@ output:
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(fig.height = 7, fig.width = 12)
+knitr::opts_chunk$set(fig.height = 5, fig.width = 8)
 knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
 ```
 
@@ -134,17 +134,5 @@ pie_chart <- plot_ly(pie_data, labels = ~aisle, values = ~count, type = 'pie') %
   layout(title = "Proportion of Products Ordered by Top 10 Aisles")
 pie_chart
 ```
-
-
-
-
-
-
-
-
-
-
-
-
 
 
